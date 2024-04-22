@@ -86,7 +86,7 @@ main{
  /*SLIDES INICIAM AQUI*/
 
  div.slides{
-    height: 400%;
+  
     width: 800%;
     display: flex;
  }
@@ -122,9 +122,10 @@ main{
 .manual-navigation{
     position: absolute;
     width: 800px;
-    margin-top: -48px;
     display: flex;
+    margin: auto;
     justify-content: center;
+    align-items: bottom;
 }
 
 .manual-btn{
@@ -165,18 +166,20 @@ main{
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
+    align-items: bottom;
 }
 
 .navigation-auto{
     position: absolute;
     width: 800px;
-    margin-top: 360px;
     display: flex;
+    margin: auto;
     justify-content: center;
 }
 
 .navigation-auto div:not(:last-child){
-    margin-right: 40px;
+    margin-right: 20px;
+    align-items: bottom;
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
