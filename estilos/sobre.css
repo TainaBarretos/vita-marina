@@ -28,15 +28,14 @@
 
 body{
     font-family: var(--font-padrão);
-    background-color: white;
+    background-color: var(--cor5);
 }
 
 header{
-    background-image: url('../imagens/tarta-final.png');
+    background-image: url('../imagens/mar-final.png');
     background-position: center top;
     background-repeat: no-repeat;
     height: 350px;
-    margin-bottom: 20px;
 }
 
 header > h1{
@@ -44,8 +43,8 @@ header > h1{
     font-family: var(--font-titulo);
     text-transform: uppercase;
     text-align: center;
-    font-size: 2.5em;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.384);
+    font-size: 3em;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.384);
     margin: auto;
     padding: 70px;
 }
@@ -69,33 +68,4 @@ header > nav > a:hover{
     color: var(--cor2);
     padding: 4px 6px;
     transition-duration: 0.5s;
-}
-
-main{
-    height: 98vh;
-    background-position:bottom;
-    padding: 20px;
-    background-color: var(--cor5);
-    border-radius: 0px 0px 10px 10px;
-    min-width: 300px; /*tamanhoo mínimo de tela*/
-    max-width: 1000px; /*tamanho máx de tela*/
-    margin: auto;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.388); /*só vai ter espalhamento, sem deslocamento lateral!*/
-}
-
-div img{
-    height: 30px;
-    width: 30px;
-    padding: 10px;
-    display: inline-block;
-}
-
-footer{
-    text-align: center;
-}
-
-footer > p{
-    background-color: var(--cor3);
-    border-radius: 5px;
 }
