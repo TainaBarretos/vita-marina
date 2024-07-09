@@ -93,6 +93,50 @@ main{
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.388); /*só vai ter espalhamento, sem deslocamento lateral!*/
 }
 
+section.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.slider-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slider-content input, .img-cel{
+    display: none;
+}
+
+.slider-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.slider-box img{
+    width: 100%;
+}
+
+.nav-manual{
+    position: absolute;
+    width: 100%;
+    margin-top: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-manual .manual-btn{
+    border: 1px solid var(--cor1);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 div.redes-socias > a > img{
     height: 30px;
     width: 30px;
