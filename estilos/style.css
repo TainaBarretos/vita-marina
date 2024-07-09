@@ -37,6 +37,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
+    width: 100vw;
     margin-bottom: 20px;
 }
 
