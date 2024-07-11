@@ -35,6 +35,7 @@ header{
     background-image: url('../imagens/limpeza-final.png');
     background-position: center top;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 350px;
     width: 100vw;
 }
