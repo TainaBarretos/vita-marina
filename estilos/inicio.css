@@ -37,3 +37,16 @@ header > h1{
     margin: auto;
     padding: 40px;
 }
+
+.info-item {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    border: solid var(--cor1) 3px;
+    height: 200px;
+    width: 99%;
+    margin: 10px 0;
+    flex-shrink: 0;
+}
