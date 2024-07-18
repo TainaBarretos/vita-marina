@@ -27,6 +27,16 @@
     box-sizing: border-box;
 }
 
+header{
+    background-image: url('../imagens/tarta-final.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    width: 100vw;
+    margin-bottom: 20px;
+}
+
 header > h1{
     color: white;
     font-family: var(--font-titulo);
