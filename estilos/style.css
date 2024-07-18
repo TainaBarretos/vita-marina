@@ -28,7 +28,7 @@
 
 body{
     font-family: var(--font-padrão);
-    background-color: white;
+    background-color: var(--cor4);
 }
 
 header{
@@ -83,7 +83,21 @@ header img.logo-site{
 main{
     height: 98vh;
     background-position:bottom;
-    padding: 20px;
+}
+
+div.infos{
+    width: 90vw;
+    height: 100vh;
+    padding-left: 10px;
+}
+
+#img-1{
+    background-image: url('../imagens/poluicao-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 96vw;
 }
 
 div.redes-socias > a > img{

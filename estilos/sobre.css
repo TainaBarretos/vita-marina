@@ -28,7 +28,7 @@
 
 body{
     font-family: var(--font-padrão);
-    background-color: var(--cor5);
+    background-color: var(--cor4);
 }
 
 header{
@@ -78,4 +78,27 @@ header img.logo-site{
     background-position: left;
     padding: 0px 0px 15px 20px;
     margin-top: -60px;
+}
+
+section.sobrenos{
+    background-image: url('../imagens/sobre-fundo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    font-family: var(--font-padrão);
+    font-size: 1.2em;
+}
+
+div.content{
+    padding: 20px;
+}
+
+.esquerda{
+    text-align: left;
+}
+
+.direita{
+    text-align: right;
 }
