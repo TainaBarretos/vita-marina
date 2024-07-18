@@ -28,35 +28,13 @@
 }
 
 header{
-    background-image: url('../imagens/tarta-final.png');
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 240px;
-    width: 100vw;
-    margin-bottom: 20px;
 }
 
 header > h1{
-    color: white;
-    font-family: var(--font-titulo);
-    text-transform: uppercase;
-    text-align: center;
     font-size: 2em;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.384);
-    margin: auto;
-    padding: 40px;
 }
 
 .info-item {
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 5px;
-    border: solid var(--cor1) 3px;
     height: 200px;
-    width: 99%;
-    margin: 10px 0;
-    flex-shrink: 0;
 }
