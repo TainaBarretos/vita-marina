@@ -1,0 +1,33 @@
+header{
+    height: 240px;
+}
+
+hearder img.logo-site{
+    width: auto;
+    height: auto;
+    max-height: 50px;
+    max-width: 50px;
+} 
+
+div h1{
+    font-size: 2em;
+}
+div > p{
+    font-size: 0.8em;
+}
+
+section.content{
+    width: 92vw;
+}
+
+section.conteudo{
+    padding: 10px 20px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+section h2{
+    padding: 12px;
+}
