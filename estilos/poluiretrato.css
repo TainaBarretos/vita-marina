@@ -1,0 +1,14 @@
+header{
+    height: 240px;
+}
+
+hearder img.logo-site{
+    width: auto;
+    height: auto;
+    max-height: 50px;
+    max-width: 50px;
+} 
+
+div h1{
+    font-size: 2em;
+}
