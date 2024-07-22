@@ -45,3 +45,10 @@ hearder img.logo-site{
 .info-item {
     height: 200px;
 }
+
+div.redes-socias > a > img{
+    height: auto;
+    width: auto;
+    max-width: 45px;
+    max-height: 45px;
+}

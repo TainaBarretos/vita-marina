@@ -129,3 +129,14 @@ div.content{
 .direita{
     text-align: right;
 }
+
+footer{
+    text-align: center;
+}
+
+footer > p{
+    background-color: var(--cor5);
+    border-radius: 5px;
+    padding: 5px;
+    color: var(--cor1);
+}
