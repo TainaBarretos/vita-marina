@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,25 +9,29 @@
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/inicio.css" media="screen and (orientation: portrait)">
 
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <header>
-        
-        <a href="index.html"><img class="logo-site" src="imagens/vitamarina.png" alt="Logo do site"></a>
-        
-            <h1>Explore, aprenda, proteja: Um compromisso com o oceano!</h1>
+        <div class="menuHeader">
+            <a href="index.html"><img class="logo-site" src="imagens/vitamarina.png" alt="Logo do site"></a>
 
-            <span id="burguer" class="material-symbols-outlined">&#xE5D2;</span>
-        <nav>
-            <a href="index.html">INÍCIO</a>
-            <a href="Sobre.html">SOBRE</a>
-            <a href="noticias.html">NOTÍCIAS</a>
-            <a href="ajude.html">AJUDE</a>
-        </nav>
+            <nav id="itens">
+                <a href="index.html">INÍCIO</a>
+                <a href="Sobre.html">SOBRE</a>
+                <a href="noticias.html">NOTÍCIAS</a>
+                <a href="ajude.html">AJUDE</a>
+            </nav>
 
+            <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">&#xE5D2;</span>
+
+        </div>
+
+        <h1>Explore, aprenda, proteja: Um compromisso com o oceano!</h1>
+        
     </header>
 
     <main>
@@ -54,16 +59,25 @@
         </section>
         <footer>
             <h3>Acompanhe</h3>
-            
+
             <div class="redes-socias">
                 <a href="#"><img src="imagens/insta-logo-azul.webp" alt="Logo do Instagram"></a>
                 <a href="#"><img src="imagens/face-logo-azulfim.png.png" alt="Logo do Facebook"></a>
                 <a href="#"><img src="imagens/face-logo-azulfim.png" alt="Logo do Youtube"></a>
             </div>
-    
+
             <p>2024 Vita Marina. Site criado por alunos do IFBA - Irecê. Todos os direitos reservados.</p>
         </footer>
     </main>
-
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
+
 </html>

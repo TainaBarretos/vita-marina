@@ -21,6 +21,22 @@
     --font-terciaria: "Roboto", sans-serif;
 }
 
+@media screen and (min-width: 768px) {
+    #burguer {
+        display: none;
+    }
+    
+    menu{
+        display: block;
+    }
+}
+
+.menuHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -69,6 +85,7 @@ header > h1{
 }
 
 nav{
+    display: flex;
     text-align: right;
 }
 
@@ -100,13 +117,14 @@ nav > a{
     white-space: nowrap;
     direction: ltr;
   }
+
 .logo-site{
     width: auto;
     height: auto;
     max-width: 50px;
     max-height: 50px;
     background-position: left;
-    padding: 5px;
+    padding: 10px;
 }
 
 section.infos{
