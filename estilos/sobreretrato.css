@@ -2,15 +2,18 @@ header{
     height: 240px;
 }
 
-hearder img.logo-site{
-    width: auto;
-    height: auto;
-    max-height: 50px;
-    max-width: 50px;
+img.logo-site{
+    width: 30px;
+    height: 30px;
+    max-height: 30px;
+    max-width: 30px;
+    background-position: left;
+    padding: 5px;
 } 
 
 div h1{
     font-size: 2em;
+    text-align: center;
 }
 div > p{
     font-size: 0.8em;
@@ -25,7 +28,7 @@ section.conteudo{
     padding: 10px 20px;
     text-align: justify;
     text-indent: 30px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.7em;
 }
 

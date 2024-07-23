@@ -49,3 +49,10 @@ section.sobrenos{
     text-indent: 30px;
     line-height: 1.5em;
 }
+
+img > #tamar-logo{
+    max-width: 200px;
+    width: auto;
+    height: auto;
+    padding: 20px 0px;
+}
