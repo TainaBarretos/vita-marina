@@ -12,3 +12,9 @@ hearder img.logo-site{
 div h1{
     font-size: 2em;
 }
+
+.legenda{
+    font-size: 0.8em;
+    text-align: center;
+    max-width: 70vw;
+}
