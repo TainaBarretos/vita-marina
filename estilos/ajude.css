@@ -158,6 +158,38 @@ section h2{
     max-width: 100%;
     height: auto;
     padding: 20px 0px;
+    float: left;
+    margin-right: 20px;
+}
+
+#wwflogo{
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+
+#ecoassociados{
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+
+#biota{
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+
+#SeaShepherd{
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+
+#instituto-laje-viva{
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0px;
 }
 
 #projetos{
