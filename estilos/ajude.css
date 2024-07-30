@@ -34,6 +34,7 @@ html, body{
 body{
     font-family: var(--font-padrão);
     background-color: var(--cor4);
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -221,6 +222,7 @@ section h2{
 
 #diferente{
     background-color: var(--cor2);
+    margin: auto;
 }
 
 #diferente > h2{
@@ -229,6 +231,7 @@ section h2{
 
 #diferente > p{
     color: white;
+    padding: 10px;
 }
 
 .conteudo a:hover {
@@ -312,7 +315,7 @@ section h2{
 }
 
 #projetosdif p{
-  padding-left: 10px;
+  padding: 10px;
 }
 
 footer{

@@ -87,6 +87,7 @@ section.content{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+   
 }
 
 div img{
@@ -111,6 +112,10 @@ section.conteudo{
 section h2{
     padding: 20px;
     color: var(--cor1);
+}
+
+section p{
+    padding: 10px;
 }
 
 .marcador{
