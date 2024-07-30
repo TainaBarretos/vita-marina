@@ -2,7 +2,7 @@ header{
     height: 240px;
 }
 
-hearder img.logo-site{
+img.logo-site{
     width: auto;
     height: auto;
     max-height: 50px;
@@ -10,11 +10,16 @@ hearder img.logo-site{
 } 
 
 div h1{
-    font-size: 2em;
+    font-size: 1.7em;
 }
 
 .legenda{
     font-size: 0.8em;
     text-align: center;
     max-width: 70vw;
+}
+
+section h2{
+    padding: 12px;
+    font-size: 1.2em;
 }

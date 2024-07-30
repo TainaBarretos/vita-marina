@@ -32,14 +32,10 @@ html, body{
     width: 100vw;
 }
 
-::-webkit-scrollbar{
-    width: 0px;
-    height: 0px;
-}
-
 body{
     font-family: var(--font-padrão);
     background-color: var(--cor4);
+    overflow-x: hidden;
 }
 
 main{
@@ -115,6 +111,11 @@ section.conteudo{
 section h2{
     padding: 20px;
     color: var(--cor1);
+}
+
+.marcador{
+    color: var(--cor1);
+    font-weight: bold;
 }
 
 footer{

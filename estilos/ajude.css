@@ -231,47 +231,59 @@ section h2{
     color: white;
 }
 
-#tamar-logo{
-    max-width: 100%;
-    height: auto;
-    padding: 20px 0px;
-    float: left;
-    margin-right: 20px;
-}
-
-#wwflogo{
-    max-width: 100%;
-    height: auto;
-    padding: 20px 0px;
-}
-
-#ecoassociados{
-    max-width: 100%;
-    height: auto;
-    padding: 20px 0px;
-}
-
-#biota{
-    max-width: 100%;
-    height: auto;
-    padding: 20px 0px;
-}
-
-#SeaShepherd{
-    max-width: 100%;
-    height: auto;
-    padding: 20px 0px;
-}
-
-#instituto-laje-viva{
-    max-width: 100%;
-    height: auto;
-    padding: 20px 0px;
-}
-
 #projetos{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+}
+
+#tamar-logo {
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    max-width: 220px;
+}
+
+#wwflogo {
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    max-width: 220px;
+}
+
+#Ecoassociados {
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    max-width: 220px;
+}    
+
+#Biota {
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    max-width: 220px;
+}
+
+#SeaShepherd {
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    max-width: 220px;
+}
+
+#instituto-laje-viva {
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    max-width: 220px;
+}
+
+#projetosdif{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
 }
 
 footer{
@@ -282,5 +294,5 @@ footer{
 footer > p{
     background-color: var(--cor5);
     padding: 20px;
-    color: var(--cor1);
+    color: var(--cor1);
 }

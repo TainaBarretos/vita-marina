@@ -55,6 +55,12 @@ nav{
     text-align: right;
 }
 
+.info-item p{
+   padding: 7px 15px;
+   font-weight: 500;
+   font-size: 1.1em;
+}
+
 .info-item {
     height: 200px;
 }

@@ -10,8 +10,9 @@ hearder img.logo-site{
 } 
 
 div h1{
-    font-size: 2em;
+    font-size: 1.7em;
 }
+
 div > p{
     font-size: 0.8em;
     padding-bottom: 10px;
@@ -31,6 +32,7 @@ section.conteudo{
 
 section h2{
     padding: 12px;
+    font-size: 1.2em;
 }
 
 section p{
