@@ -286,6 +286,10 @@ section h2{
     color: white;
 }
 
+#projetosdif p{
+  padding-left: 10px;
+}
+
 footer{
     margin-top: 20px;
     text-align: center;
