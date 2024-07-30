@@ -7,18 +7,48 @@
     <link rel="stylesheet" href="estilos/sobre.css" media="all">
     <link rel="stylesheet" href="estilos/sobreretrato.css" media="screen and (orientation: portrait)">
 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <script src="../vita-marina/javascript/sobre.js" defer></script>
+
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">HOME</a>
-            <a href="Sobre.html">SOBRE</a>
-            <a href="noticias.html">NOTÍCIAS</a>
-            <a href="ajude.html">AJUDE</a>
-        </nav>
-        <a href="index.html"><img class="logo-site" src="imagens/vitamarina.png" alt="Logo do site"></a>
 
+    <nav class="navbar">
+
+        <div><a href="index.html"><img id="logo" src="imagens/vitamarina.png" alt="Logo do site, uma tartaruga com água em volta"></a></div>
+
+        <ul class="nav-links-desktop">
+            <li><a href="index.html">INÍCIO</a></li>
+            <li><a href="Sobre.html">SOBRE</a></li>
+            <li><a href="noticias.html">NOTÍCIAS</a></li>
+            <li><a href="ajude.html">AJUDE</a></li>
+        </ul>
+
+        <div class="mobile-menu" id="mobileMenu">
+
+          <button class="close" id="closeButton">
+            <i class="fas fa-times"></i>
+          </button>
+
+          <ul class="nav-links-mobile">
+            <li><a href="index.html">INÍCIO</a></li>
+            <li><a href="Sobre.html">SOBRE</a></li>
+            <li><a href="noticias.html">NOTÍCIAS</a></li>
+            <li><a href="ajude.html">AJUDE</a></li>     
+          </ul>
+        </div>
+
+        <button class="hamburger" id="hamburgerButton">
+          <i class="fas fa-bars"></i>
+        </button>
+
+      </nav>
+
+    <header>
         <h1>SOBRE NÓS</h1>
     </header>
 
@@ -32,5 +62,9 @@
                 <p class="direita">Convidamos você a fazer parte dessa jornada! Explore, aprenda e ajude a proteger nossos oceanos. Cada ação conta e juntos podemos fazer a diferença. Venha nos conhecer e descubra como você pode contribuir para um futuro mais sustentável.</p>
             </div>
     </section>
+
+    <footer>            
+        <p>2024 Vita Marina. Site criado por alunos do IFBA - Irecê. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
