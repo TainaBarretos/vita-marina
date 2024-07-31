@@ -14,7 +14,7 @@ section.conteiner{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
-    gap: 10px;
+    gap: 5px;
     max-width: 80vw;
 }
 
@@ -23,7 +23,9 @@ section.conteiner{
     height: 100%;
     object-fit: cover; 
 }
-  
+article > h2{
+    font-size: 1.2em;
+}
 /*
 div h1{
     font-size: 1.7em;

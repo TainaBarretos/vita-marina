@@ -8,11 +8,44 @@
     <link rel="stylesheet" href="../estilos/pesca.css" media="all">
     <link rel="stylesheet" href="../estilos/pescaretrato.css" media="screen and (orientation: portrait)">
 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <script src="../javascript/pesca.js" defer></script>
+
     <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
+    <nav class="navbar">
         <a href="../index.html"><img class="logo-site" src="../imagens/vitamarina.png" alt="Logo do site"></a>
+        
+        <ul class="nav-links-desktop">
+            <li><a href="../index.html">INÍCIO</a></li>
+            <li><a href="../Sobre.html">SOBRE</a></li>
+            <li><a href="../noticias.html">NOTÍCIAS</a></li>
+            <li><a href="../ajude.html">AJUDE</a></li>
+        </ul>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <button class="close" id="closeButton">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <ul class="nav-links-mobile">
+                <li><a href="../index.html">INÍCIO</a></li>
+                <li><a href="../Sobre.html">SOBRE</a></li>
+                <li><a href="../noticias.html">NOTÍCIAS</a></li>
+                <li><a href="../ajude.html">AJUDE</a></li>
+            </ul>
+        </div>
+
+        <button class="hamburger" id="hamburgerButton">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+    <header>
+        <h1></h1>
     </header>
 
         <div>

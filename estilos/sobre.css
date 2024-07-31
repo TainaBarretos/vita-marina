@@ -219,6 +219,87 @@ div.content{
     text-align: right;
 }
 
+.mensagem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+}
+
+.form-flex{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cor3);
+  border-radius: 5px;
+  width: 90vw;
+}
+
+.form-flex .title{
+  padding: 20px;
+  font-size: 1.4em;
+  border-bottom: thin solid #ccc;
+  font-family: var(--font-titulo);
+  text-transform: uppercase;
+}
+
+.form-flex form{
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.form-flex input, 
+.form-flex textarea{
+  width: calc(50% - 8px);
+  height: 48px;
+  border-radius: 5px;
+  border: thin solid #999;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  font-size: 0.9em;
+}
+
+.form-flex input:first-child{
+  margin-right: 16px;
+}
+
+.form-flex input[name=assunto]{
+  width: 100%;
+}
+
+.form-flex textarea{
+  width: 100%;
+  height: 180px;
+  padding: 10px;
+}
+
+.form-flex button{
+  display: block;
+  border: none;
+  outline: none;
+  width: 180px;
+  height: 48px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 18px;
+  background-color: var(--cor1);
+  color: white;
+  font-size: 0.9em;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+
+.form-flex button:hover{
+  background-color: var(--cor5);
+  color: var(--cor2);
+  padding-left: 2px;
+  padding-bottom: 2px;
+
+}
+
 footer{
     margin-top: 20px;
     text-align: center;

@@ -71,3 +71,11 @@ div.redes-socias > a > img{
     max-width: 45px;
     max-height: 45px;
 }
+
+div.rodape{
+    padding: 10px;
+}
+
+div.rodape > p{
+    margin-top: 20px;
+  }

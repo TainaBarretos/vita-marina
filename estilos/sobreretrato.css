@@ -35,3 +35,8 @@ section h2{
 section p{
     padding: 10px;
 }
+
+.form-flex button{
+    margin-bottom: 18px;
+  }
+  
