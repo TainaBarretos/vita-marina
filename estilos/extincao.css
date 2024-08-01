@@ -206,7 +206,9 @@ div img{
 }
 
 div > p{
-    font-size: 1em;
+    font-size: 0.9em;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 section.conteudo{
@@ -217,13 +219,13 @@ section.conteudo{
     padding: 15px;
 }
 
-section h2{
-    padding: 20px;
+section.conteudo > h2{
+    padding: 40px 0px 10px 0px;
     color: var(--cor1);
 }
 
-section p{
-    padding: 10px;
+section.conteudo > p {
+    padding: 20px 20px;
 }
 
 .marcador{
